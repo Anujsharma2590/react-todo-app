@@ -1,0 +1,51 @@
+.Todo{
+display: flex;
+justify-content: space-between;
+background-color: #444444;
+margin: 3px 100px 3px 100px;
+height: 70px;
+align-items: center;
+border-radius: 6px;
+}
+.Todo > div{
+margin-left: 20px;
+}
+.Todo > div > h3{
+    font-size: 22px;
+}
+.TodoChild{
+display: flex;
+margin-right: 20px;
+}
+
+.completeBtn > Button{
+  border: 1.5px solid rgb(99, 196, 99);
+  color: rgb(99, 196, 99);
+  text-align: center;
+  font-size: 18px;
+  padding: 11px 22px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  margin-right: 25px;
+
+}
+.deleteBtn > Button{
+  border: 1px solid rgb(223, 97, 97);
+  color: rgb(223, 97, 97);
+  text-align: center;
+  font-size: 18px;
+   padding: 12px 22px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+
+}
+.completeBtn > Button:hover {
+  background-color: rgb(99, 196, 99); /* Green */
+  color: white;
+}
+.deleteBtn > Button:hover {
+  background-color: rgb(223, 97, 97); /* Green */
+  color: white;
+}

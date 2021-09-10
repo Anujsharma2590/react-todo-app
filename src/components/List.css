@@ -1,0 +1,49 @@
+
+.InpParent{
+display: flex;
+justify-content: space-between;
+background-color: #444444;
+margin: 0px 100px 25px 100px;
+height: 100px;
+align-items: center;
+border-radius: 6px;
+}
+.Btn{
+  margin-right: 20px;
+}
+.Btn > Button{
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 13px 25px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  
+}
+
+.Btn > Button:hover {
+  background-color: white; /* Green */
+  color: orange;
+}
+
+.Inp{
+  margin-left: 20px;
+}
+.Inp > input{
+     border: 1px solid #ff9900;
+     font-size:15pt;
+     height:35px;
+     width:250px;
+     outline: none;
+     border-radius: 12px;  
+     color: #444444;
+      padding-left: 1em;
+     
+}
+
+.Inp > input::placeholder {
+text-decoration: dashed;
+}
